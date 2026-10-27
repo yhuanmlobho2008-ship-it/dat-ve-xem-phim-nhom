@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #07080c;
+  }
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* Custom Neon Orange Glow Utilities */
+.glow-orange {
+  box-shadow: 0 0 30px -5px rgba(249, 115, 22, 0.45);
+}
+.glow-orange-sm {
+  box-shadow: 0 0 16px -3px rgba(249, 115, 22, 0.35);
+}
+.glow-orange-lg {
+  box-shadow: 0 0 50px -10px rgba(249, 115, 22, 0.55);
+}
+.glow-orange-text {
+  text-shadow: 0 0 20px rgba(249, 115, 22, 0.6);
+}
+
+/* Screen Curve for Seat Map */
+.cinema-screen {
+  background: linear-gradient(180deg, rgba(249, 115, 22, 0.4) 0%, rgba(249, 115, 22, 0.05) 70%, transparent 100%);
+  border-top: 3px solid #ff7828;
+  border-radius: 50% 50% 0 0 / 25px 25px 0 0;
+  box-shadow: 0 -10px 25px rgba(255, 120, 40, 0.3);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0f17;
+}
+::-webkit-scrollbar-thumb {
+  background: #232736;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ea580c;
+}

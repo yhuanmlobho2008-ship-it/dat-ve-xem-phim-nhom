@@ -1,0 +1,6 @@
+{
+  "name": "CineGlow Cinema",
+  "description": "Website thương mại điện tử đặt vé xem phim phong cách Dark Mode Cam Neon hiện đại, trực quan, hỗ trợ chọn rạp, chọn ghế và trang quản trị.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
